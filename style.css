@@ -242,12 +242,12 @@ textarea {
 }
 
 /* footer */
-
+ 
 .footer {
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
-  margin-top: 30px;
+  margin-top: 30px;     
 }
 
 .three {
