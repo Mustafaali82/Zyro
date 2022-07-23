@@ -231,6 +231,60 @@ textarea {
   top: 30px;
 }
 
+/* background-image-section */
+
+.background-image-section {
+  margin-top: 50px;
+  background-image: url("images/photo-1511097799136-3661d1bb586c.jfif");
+  height: 25em;
+  background-position: center;
+  background-size: cover;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+}
+
+.one,
+.two,
+.three > h4 {
+  font-size: 20px;
+}
+
+.one,
+.two,
+.three > span {
+  font-size: 16px;
+  width: 100px;
+}
+
+.one > span {
+  position: relative;
+  top: 13px;
+  line-height: 30px;
+}
+
+.two > span {
+  position: relative;
+  top: 13px;
+  line-height: 30px;
+}
+
+.one,
+.two {
+  width: 191px;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 767px) {
