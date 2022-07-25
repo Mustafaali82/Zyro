@@ -10,6 +10,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -276,4 +281,13 @@ button:hover {
   .input-form > button {
     margin-left: 63px;
   }
+
+  input {
+    width: 22em;
+    margin-top: 6px;
+  }
+  label {
+    position: unset !important;
+    padding-top: 24px;
+  } 
 }
