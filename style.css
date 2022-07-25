@@ -10,6 +10,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -139,6 +146,11 @@ button:hover {
   width: 355px;
 }
 
+.s {
+  position: relative;
+  top: 20px;
+}
+
 .heading-box > h1 {
   font-size: 50px;
   margin-top: 30px;
@@ -242,12 +254,12 @@ textarea {
 }
 
 /* footer */
- 
+
 .footer {
   display: flex;
   justify-content: space-evenly;
   padding: 50px;
-  margin-top: 30px;     
+  margin-top: 30px;
 }
 
 .three {
@@ -327,6 +339,7 @@ textarea {
     font-size: 35px;
     width: 308px;
     text-align: center;
+    margin-top: 100px;
   }
 
   .heading-sec {
@@ -348,6 +361,101 @@ textarea {
 
   .center-image {
     margin-top: 0;
+  }
+
+  .about {
+    display: block;
+    margin-left: 30px;
+  }
+
+  .about-box {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .span {
+    width: 304px;
+    margin-top: 30px;
+  }
+
+  .i {
+    width: 335px;
+    margin-top: 20px;
+  }
+
+  .imag-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .imag-sec > img {
+    width: 180px;
+  }
+
+  .form {
+    display: block;
+    margin-top: 40px;
+    margin-left: 15px;
+  }
+
+  .heading > h1 {
+    font-size: 30px;
+  }
+
+  .heading > span {
+    font-size: 14px;
+    top: 10px;
+  }
+
+  .input-form {
+    margin-top: 30px;
+    margin-left: 32px;
+    justify-content: center;
+  }
+
+  input {
+    width: 22em;
+  }
+
+  textarea {
+    width: 22.5em;
+  }
+
+  .input-form > button {
+    margin-left: 63px;
+  }
+
+  .footer {
+    display: block;
+    padding: 25px;
+    margin-top: 30px;
+  }
+
+  .three > h4 {
+    position: relative;
+    top: 34px;
+  }
+
+  .two {
+    margin-top: -86px;
+  }
+
+  .im {
+    position: relative;
+    top: 17em;
+    left: -9px;
+  }
+
+  .imi {
+    position: relative;
+    top: 16.8em !important;
+    left: -3px;
+    width: 40px !important;
+  }
+
+  .heading {
+    margin-left: 15px;
   }
 }
 
