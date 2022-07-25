@@ -385,17 +385,18 @@ textarea {
     grid-gap: 20px;
   }
 
-  .heading-box > h1{
+  .heading-box > h1 {
     padding-bottom: 10px;
   }
 
-  .sp{
-    position: unset  !important;
-  }
-/* 
-  label{
+  .sp {
     position: unset !important;
-  } */
+  }
+
+  label {
+    position: unset !important;
+    padding-top: 24px;
+  }
 
   .i {
     width: 335px;
@@ -436,10 +437,12 @@ textarea {
 
   input {
     width: 22em;
+    margin-top: 6px;
   }
 
   textarea {
     width: 22.5em;
+    margin-top: 6px;
   }
 
   .input-form > button {
