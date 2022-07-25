@@ -420,11 +420,12 @@ textarea {
 
   .heading > h1 {
     font-size: 30px;
+    padding-bottom: 14px;
   }
 
   .heading > span {
     font-size: 14px;
-    top: 10px;
+    position: unset;
   }
 
   .input-form {
