@@ -331,12 +331,12 @@ textarea {
     transition: 0.3s;
   }
 
-  .s {
-    position: unset !important;
-  }
-
   .nav-menu.active {
     left: 0;
+  }
+
+  .s {
+    position: unset !important;
   }
 
   .heading-sec > h1 {

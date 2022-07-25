@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  font-weight: 500;
+  color: black;
+}
+
+.logo {
+  width: 65px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.humburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  background-color: black;
+}
+
+/* about */
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.about-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: 150px;
+  grid-gap: 170px;
+  width: 55%;
+  padding-bottom: 40px;
+}
+
+.heading-box {
+  width: 355px;
+}
+
+.s {
+  position: relative;
+  top: 20px;
+}
+
+.heading-box > h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.span {
+  width: 460px;
+  margin-top: 60px;
+}
+
+.span > span {
+  line-height: 30px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+  nav {
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .humburger {
+    display: block;
+  }
+
+  .humburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .humburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .humburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .about {
+    display: block;
+    margin-left: 30px;
+  }
+
+  .about-box {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .span {
+    width: 304px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+
+  .heading-box > h1 {
+    padding-bottom: 10px;
+  }
+
+  .s {
+    position: unset !important;
+  }
+}
