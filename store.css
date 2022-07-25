@@ -89,7 +89,7 @@ li:hover {
 }
 
 .heading-box > h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin-top: 30px;
   font-weight: 400;
 }
@@ -101,6 +101,79 @@ li:hover {
 
 .span > span {
   line-height: 30px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+}
+
+.one,
+.two,
+.three > h4 {
+  font-size: 20px;
+}
+
+.one,
+.two,
+.three > span {
+  font-size: 16px;
+  width: 100px;
+}
+
+.one > span {
+  position: relative;
+  top: 13px;
+  line-height: 30px;
+}
+
+.two > span {
+  position: relative;
+  top: 13px;
+  line-height: 30px;
+}
+
+.one,
+.two {
+  width: 191px;
+}
+
+input {
+  width: 40em;
+  height: 50px;
+  padding: 16px;
+  margin-top: 30px;
+  background-color: #e3e3e3;
+  border: 1px;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  width: 170px;
+  height: 50px;
+  background-color: #ccadad;
+  border: 1px solid #ccadad;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 900;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.7s;
 }
 
 /* Media Query */
@@ -148,7 +221,7 @@ li:hover {
 
   .about-box {
     display: block;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   .span {
@@ -160,10 +233,47 @@ li:hover {
   }
 
   .heading-box > h1 {
+    font-size: 40px;
     padding-bottom: 10px;
   }
 
   .s {
     position: unset !important;
+  }
+
+  .footer {
+    display: block;
+    padding: 25px;
+    margin-top: 30px;
+  }
+
+  .three > h4 {
+    position: relative;
+    top: 34px;
+  }
+
+  .two {
+    margin-top: -86px;
+  }
+
+  .im {
+    position: relative;
+    top: 17em;
+    left: -9px;
+  }
+
+  .imi {
+    position: relative;
+    top: 16.8em !important;
+    left: -3px;
+    width: 40px !important;
+  }
+
+  .heading {
+    margin-left: 15px;
+  }
+
+  .input-form > button {
+    margin-left: 63px;
   }
 }
