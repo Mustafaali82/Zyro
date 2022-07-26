@@ -245,10 +245,6 @@ button:hover {
   font-size: 17px;
 }
 
-.one-i > img:hover{
-  opacity : 0.3;
-  transition: 0.3s;
-}
 
 /* Media Query */
 
