@@ -355,4 +355,27 @@ button:hover {
     position: unset !important;
     padding-top: 24px;
   }
+
+  .image-section{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    width: 100%;
+  }
+
+  .ime{
+    width: 304px;
+  }
+
+  .hero{
+    margin-top:0 ;
+  }
+ 
+  .list-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
