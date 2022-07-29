@@ -363,13 +363,12 @@ textarea {
   }
   .hero{
     width: 100vw;
-    height: 42vh;
+    height: 30vh;
     background-size: cover;
   }
 
   .hero > h1{
-    font-size: 30px;
-    margin-right: 70px;
+    font-size: 27px;
     margin-top: 70px;
   }
 }
