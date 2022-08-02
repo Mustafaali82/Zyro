@@ -1,5 +1,5 @@
 # Zyro Website
 
-Zyro  Website Link  https://mustafaali82.github.io/Zyro/
+Zyro  Website--  https://mustafaali82.github.io/Zyro/
 
-Zyro Varcel Page link https://zyro-five.vercel.app/
+Zyro Deploy Page--  https://zyro-five.vercel.app/
