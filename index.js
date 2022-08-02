@@ -12,8 +12,13 @@ document.querySelector(".nav-link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
-    
+
 function invisibleFunction() {
-  document.querySelector(".input-form").style.display = "none"
+  document.querySelector(".input-form").style.display = "none";
   document.querySelector(".invisble").style.display = "block";
+}
+
+function invisibleFunction1() {
+  document.querySelector(".three").style.display = "none";
+  document.querySelector(".invisble1").style.display = "block";
 }

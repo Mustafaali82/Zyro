@@ -32,7 +32,12 @@ header::before {
 header::after {
   /* linear gradient from background color to transparent acts as
      a transition effect so the shadow appears gradually */
-  background: linear-gradient(white 10%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.4) 70%, transparent);
+  background: linear-gradient(
+    white 10%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.4) 70%,
+    transparent
+  );
   top: 0;
   /* cover should fall over shadow */
   z-index: 2;
@@ -213,6 +218,47 @@ h2 {
   margin-top: 120px;
 }
 
+.invisble {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 132px;
+  width: 515px;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+}
+
+.invisble > span {
+  position: relative;
+  top: 108px;
+  left: 78px;
+}
+
+.invisble1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 89px;
+  width: 515px;
+  height: 170px;
+  margin-top: 32px;
+}
+
+.invisble1 > h4 {
+  margin-top: -124px;
+  margin-left: -92px;
+}
+
+.invisble1 > span {
+  position: relative;
+  top: 86px;
+  left: 127px;
+}
+
 .input-form {
   display: flex;
   justify-content: center;
@@ -382,18 +428,18 @@ textarea {
     padding-top: 24px;
   }
 
-  .about{
+  .about {
     width: auto;
     margin: 0 0;
     padding: 47px;
   }
-  .hero{
+  .hero {
     width: 100vw;
     height: 30vh;
     background-size: cover;
   }
 
-  .hero > h1{
+  .hero > h1 {
     font-size: 39px;
     margin-top: 70px;
     margin-left: 7%;
