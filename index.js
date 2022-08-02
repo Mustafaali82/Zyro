@@ -13,3 +13,7 @@ document.querySelector(".nav-link").forEach((n) =>
   })
 );
     
+function invisibleFunction() {
+  document.querySelector(".input-form").style.display = "none"
+  document.querySelector(".invisble").style.display = "block";
+}

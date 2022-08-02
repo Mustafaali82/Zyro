@@ -13,11 +13,15 @@
     <header>
         <nav>
             <div class="logo">
-                <img  class="logo" src="images/logo (1).svg" alt="logo" />
+                <img class="logo" src="images/logo (1).svg" alt="logo" />
             </div>
             <ul class="nav-menu">
-               <a href="#"><li class="nav-item">Home</li></a>
-                <a href="store.html"><li class="nav-item">Store</li></a>
+                <a href="#">
+                    <li class="nav-item">Home</li>
+                </a>
+                <a href="store.html">
+                    <li class="nav-item">Store</li>
+                </a>
                 <a href="cutomer-care.html">
                     <li class="nav-item">Customer care</li>
                 </a>
@@ -53,7 +57,7 @@
         </div>
     </section>
 
-    <section class="about"> 
+    <section class="about">
         <div class="about-box">
             <div class="heading-box">
                 <span>WHO WE ARE</span>
@@ -72,7 +76,8 @@
             <div class="heading-box">
                 <span>OUR CREDO</span>
                 <h1>Comfort Beauty Versatility</h1>
-                <span class="sp" style="font-size: 15px; position: relative; top: 20px; line-height: 25px;">We have made quality
+                <span class="sp" style="font-size: 15px; position: relative; top: 20px; line-height: 25px;">We have made
+                    quality
                     our habit. It’s not something that we just strive for – we
                     live by this
                     principle every day.</span>
@@ -91,7 +96,7 @@
             <img src="images/denys-striyeshyn-wj7ygwz2-00-unsplash-AQE92JvVD5hLgw3L.jpeg" alt="">
             <img src="images/jorge-de-jorge-veajabgxhto-unsplash-YrDBMazOyyHVRb1Z.jpeg" alt="">
         </div>
-        <button>Follow us</button>
+        <a href="https://www.instagram.com/" target="_blank"><button>Follow us</button></a>
     </section>
 
     <section class="form">
@@ -99,16 +104,19 @@
             <h1>Have a question?</h1>
             <span>Left your e-mail and we will contact you soon</span>
         </div>
-        <div class="input-form">
+        <form action="invisble" class="input-form">
             <label for="">Name*</label>
-            <input type="name" placeholder="Your name">
+            <input type="name" placeholder="Your name" required>
             <label for="">Last name</label>
-            <input type="name" placeholder="Your last anme">
+            <input type="name" placeholder="Your last anme" required>
             <label for="">Your email*</label>
-            <input type="email" placeholder="example@mail.com">
+            <input type="email" placeholder="example@mail.com" required>
             <label for="">Message</label>
-            <textarea placeholder="Enter your message" name="" id="" cols="30" rows="10"></textarea>
-            <button>Contact Me</button>
+            <textarea placeholder="Enter your message" name="" id="" cols="30" rows="10" required></textarea>
+            <button type="submit" onclick="invisibleFunction()">Contact Me</button>
+        </form>
+        <div style="display: none;" class="invisble">
+            <span>Our specialist will contact you soon!</span>
         </div>
     </section>
 
@@ -123,7 +131,8 @@
             <br>
             <img class="im" style="margin-top: 65px; padding: 10px;" src="images/icons8-twitter-30.png" alt="">
             <img class="im" style="padding: 10px;" src="images/icons8-facebook-30.png" alt="">
-            <img class="imi" style="padding: 3px; width: 43px; position: relative; top: -2px;" width="" src="images/icons8-instagram-48.png" alt="">
+            <img class="imi" style="padding: 3px; width: 43px; position: relative; top: -2px;" width=""
+                src="images/icons8-instagram-48.png" alt="">
         </div>
         <div class="two">
             <h4>Contacts</h4>
